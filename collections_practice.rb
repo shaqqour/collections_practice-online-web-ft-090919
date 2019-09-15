@@ -36,3 +36,12 @@ def kesha_maker(array)
   end
   new_arr
 end
+
+def find_a(array)
+  array.select { |str| str.start_with?("a") }
+end
+  
+  
+  
+  
+  
