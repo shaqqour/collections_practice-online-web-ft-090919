@@ -45,7 +45,9 @@ def sum_array(array)
   array.inject { |acc, ele| acc + ele }
 end
 
-
+def add_s(array)
+  array.map.with_index { |ele, idx| ele + "s" if idx != 1 }
+end
   
   
   
