@@ -46,7 +46,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.map.with_index { |ele, idx| ele + "s" if idx != 1 }
+  array.map.with_index { |ele, idx| idx != 1 ? ele + "s" : ele }
 end
   
   
